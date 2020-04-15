@@ -29,6 +29,7 @@ html {
     font-size: inherit;
     height: 1em;
     overflow: visible;
+
   }
   
   a {
@@ -42,7 +43,7 @@ html {
   
   .container {
     max-width: 980px;
-   
+  
     margin: 40px auto;
     padding: 32px;
     background: white;
@@ -91,15 +92,30 @@ html {
   .contact
   {
     display: flex;
-    block-size: 90%;
+    block-size: 28px;
     width: fit-content;
     background-color:black; 
-    color:white; 
-    padding: 8px; 
-    font-size:12px; 
-    
-    
+    padding: 6px; 
+      
   }
+  .contact-text
+{
+    font-display: center;
+    background-color:black; 
+    color:white; 
+    padding: 1px; 
+    font-size:13px;
+    pointer-events: fill;
+   
+    
+}
+ .contact-icon
+ {
+    background-color:black; 
+    color:white; 
+    padding: 1px; 
+  
+ }
 
   ol {
     max-width: 350px;
@@ -194,10 +210,19 @@ html {
   }
   
   .job-title-container {
-   
+    grid-column-start:;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 16px;
+    
+  }
+  
+  .job-title-container1 {
+    grid-column-start:;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    max-height: 100px;
   }
   
   .job-company {
